@@ -1,0 +1,74 @@
+Aqui vai um resumo direto e prático dos três tópicos que você pediu:
+
+---
+
+## 1. Git: conceitos básicos
+
+O **Git** é um sistema de controle de versão distribuído, usado para rastrear mudanças no código.
+
+**Conceitos principais:**
+
+* **Repositório (repo):** onde o projeto fica armazenado.
+* **Commit:** um “snapshot” das alterações feitas.
+* **Branch:** ramificação do projeto (ex: `main`, `dev`).
+* **Merge:** juntar alterações de diferentes branches.
+* **Clone:** copiar um repositório remoto para sua máquina.
+* **Pull:** baixar atualizações do repositório remoto.
+* **Push:** enviar alterações para o repositório remoto.
+
+**Fluxo básico:**
+
+```bash
+git init
+git add .
+git commit -m "mensagem"
+git push
+```
+
+---
+
+## 2. GitHub: repositórios
+
+O **GitHub** é uma plataforma online que hospeda repositórios Git.
+
+**O que você faz no GitHub:**
+
+* Criar repositórios (públicos ou privados)
+* Armazenar código na nuvem
+* Colaborar com outras pessoas
+* Abrir **Pull Requests** (propostas de mudança)
+* Gerenciar issues (tarefas/problemas)
+
+**Estrutura básica de um repositório:**
+
+* Código-fonte
+* README (descrição do projeto)
+* Histórico de commits
+* Branches
+
+---
+
+## 3. VS Code: integração com Git
+
+O **Visual Studio Code** já vem com integração nativa com Git.
+
+**Funcionalidades principais:**
+
+* Ver alterações de arquivos
+* Fazer commit com interface gráfica
+* Criar e trocar branches
+* Resolver conflitos
+* Fazer push/pull sem terminal
+
+**Como usar:**
+
+1. Abra a pasta do projeto no VS Code
+2. Vá na aba de **Source Control**
+3. Clique em **Initialize Repository** (se ainda não tiver Git)
+4. Faça alterações → escreva mensagem → **Commit**
+5. Clique em **Sync Changes** (push/pull)
+
+---
+
+Se quiser, posso te passar um passo a passo completo (com prints mentais) pra você criar um projeto do zero usando Git + GitHub + VS Code.
+
